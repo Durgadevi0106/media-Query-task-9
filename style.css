@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-size: 2rem;
+    background-color: grey;
+    color: whitesmoke;
+    display:block;
+    text-align: center;
+}
+@media screen and (max-width: 500px){
+    nav{
+        display: none;
+    }
+}
